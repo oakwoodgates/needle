@@ -81,7 +81,7 @@ function compass_enqueue_scripts() {
 
 	wp_enqueue_script(
 		'compass',
-		$js_dir . "theme{$suffix}.js",
+		$js_dir . "bootstrap{$suffix}.js",
 		array( 'jquery' ),
 		null,
 		true
